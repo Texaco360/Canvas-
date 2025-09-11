@@ -1,0 +1,43 @@
+object DrawingForm: TDrawingForm
+  Left = 544
+  Height = 570
+  Top = 42
+  Width = 683
+  Caption = 'DrawingForm'
+  ClientHeight = 570
+  ClientWidth = 683
+  DesignTimePPI = 168
+  LCLVersion = '4.0.0.4'
+  object PaintBox: TPaintBox
+    Left = 0
+    Height = 520
+    Top = 0
+    Width = 683
+    Align = alClient
+    BorderSpacing.Bottom = 50
+    ParentColor = False
+    OnClick = PaintBoxClick
+    OnMouseDown = PaintBoxMouseDown
+    OnMouseMove = PaintBoxMouseMove
+    OnMouseUp = PaintBoxMouseUp
+    OnPaint = PaintBoxPaint
+  end
+  object Button1: TButton
+    Left = 4
+    Height = 38
+    Top = 526
+    Width = 100
+    Anchors = [akLeft, akBottom]
+    Caption = 'Clear'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object lblCoords: TLabel
+    Left = 589
+    Height = 30
+    Top = 528
+    Width = 87
+    Anchors = [akRight, akBottom]
+    Caption = 'lblCoords'
+  end
+end
