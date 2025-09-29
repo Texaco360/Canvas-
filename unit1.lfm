@@ -1,21 +1,25 @@
 object DrawingForm: TDrawingForm
   Left = 544
-  Height = 617
+  Height = 353
   Top = 42
-  Width = 695
+  Width = 397
   Caption = 'DrawingForm'
-  ClientHeight = 617
-  ClientWidth = 695
-  DesignTimePPI = 168
-  LCLVersion = '4.0.0.4'
+  ClientHeight = 353
+  ClientWidth = 397
+  Constraints.MinHeight = 100
+  Constraints.MinWidth = 200
+  OnCreate = FormCreate
+  OnResize = FormResize
   object PaintBox: TPaintBox
     Left = 0
-    Height = 567
+    Height = 324
     Top = 0
-    Width = 695
+    Width = 397
     Align = alClient
-    BorderSpacing.Bottom = 50
+    BorderSpacing.Bottom = 29
     ParentColor = False
+    OnMouseDown = PaintBoxMouseDown
+    OnMouseMove = PaintBoxMouseMove
     OnPaint = PaintBoxPaint
   end
 end

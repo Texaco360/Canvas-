@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug project1",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/project1",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": true,
+      "preLaunchTask": "test"
+    }
+  ]
+}
