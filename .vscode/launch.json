@@ -9,7 +9,7 @@
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopAtEntry": true,
-      "preLaunchTask": "test"
+      "preLaunchTask": "build"
     }
   ]
 }
