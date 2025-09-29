@@ -8,6 +8,7 @@ object DrawingForm: TDrawingForm
   ClientWidth = 397
   Constraints.MinHeight = 100
   Constraints.MinWidth = 200
+  LCLVersion = '4.2.0.0'
   OnCreate = FormCreate
   OnResize = FormResize
   object PaintBox: TPaintBox
