@@ -45,6 +45,10 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
       </Unit>
+      <Unit>
+        <Filename Value="uDrawingEngine.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
